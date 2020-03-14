@@ -27,5 +27,8 @@ end
 def find_a(a)
   a.select {|b| b[0] == "a"}
 end
+
+def sum_array(a)
+  
   
   
