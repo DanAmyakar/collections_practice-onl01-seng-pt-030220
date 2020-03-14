@@ -23,5 +23,9 @@ end
 def kesha_maker(a)
   a.each {|b| b[2] = "$"}
 end
+
+def find_a(a)
+  a.select {|b| b[0] == "a"}
+end
   
   
