@@ -1,5 +1,5 @@
 def xsort_array_asc(a)
-  a.sort { |b, c|
+  a.sort { |b, c| a <=> b }
    
   end
   
