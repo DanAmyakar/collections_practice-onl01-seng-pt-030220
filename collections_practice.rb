@@ -38,7 +38,7 @@ def add_s(a)
   multiples_wo_s = ["sheep", "feet", "deer", "fish"]
   i = 0
   while i < a.length
-    multiples_wo_s.include?(a[i])
+    if multiples_wo_s.include?(a[i])
       i++
     else
       a[i] << "s"      
