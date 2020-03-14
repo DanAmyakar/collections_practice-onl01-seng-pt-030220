@@ -33,5 +33,9 @@ def sum_array(a)
   a.each {|b| sum += b}
   sum
 end
+
+def add_s
+  a.each {|b| b << "s"}
+end
   
   
