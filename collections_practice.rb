@@ -50,7 +50,7 @@ end
 def add_s(a)
   i = 0
   while i < a.length
-    if i == 1
+    i == 1 ? 
       i++
     else
       a[i] << "s"
