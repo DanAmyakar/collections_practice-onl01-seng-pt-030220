@@ -7,7 +7,7 @@ def sort_array_dsc(a)
 end
 
 def sort_array_char_count(a)
-  a.sort {|b, c.|c.length<=>b.length}
+  a.sort {|b, c.| c.length <=> b.length}
 end
 
 def swap_elements
