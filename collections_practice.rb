@@ -35,11 +35,7 @@ end
 ### array.inject(0){|sum,x| sum + x }
 
 def add_s(a)
-  i = 0
-  while i < a.length
-    a[i] << "s" if a[i] != "feet"
-    i++
-  end
+  
 end
   
   
