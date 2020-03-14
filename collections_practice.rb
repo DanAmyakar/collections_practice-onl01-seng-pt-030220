@@ -3,7 +3,7 @@ def sort_array_asc(a)
 end
 
 def sort_array_dsc(a)
-  a.sort{|b, c|b<=>c}.reverse
+  a.sort.reverse{|b, c|b<=>c}
 end
 
 def sort_array_char_count(a)
