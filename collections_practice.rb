@@ -21,15 +21,7 @@ end
 
 # stings are arrays themselves
 def kesha_maker(a)
-  i = 0
-  mod_wrd = []
-  while i < a.length
-    mod_wrd << a[i].split("")
-    mod_wrd[2] = "$"
-    a  << mod_wrd.join
-    i++
-  end
-  a
+  a.each {|b| b[2] = "$"}
 end
   
   
