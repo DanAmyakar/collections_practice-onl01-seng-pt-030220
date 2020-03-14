@@ -13,3 +13,7 @@ end
 def swap_elements(a)
   a[0], a[1], a[2] = a[0], a[2], a[1]
 end
+
+def reverse.array(a)
+  a.sort.reverse{|b| b}
+end
