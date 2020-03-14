@@ -38,10 +38,10 @@ def add_s(a)
   multiples_wo_s = ["sheep", "feet", "deer", "fish"]
   i = 0
   while i < a.length
-    if multiples_wo_s.none? {|b| b == a[i]}
-      a[i] << "s"
+    if multiples_wo_s.include?(a[i])
+      i++
     else
-      i++      
+      a[i] << "s"      
     end
     i++
   end
