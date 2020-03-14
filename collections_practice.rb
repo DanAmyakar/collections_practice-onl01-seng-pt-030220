@@ -43,10 +43,8 @@ def add_s(a)
       a[i] << "s"      
     end
     i++
-  end
-  a
 end
-end
+  
   
 
 
