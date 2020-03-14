@@ -17,3 +17,6 @@ end
 def reverse_array(a)
   a.reverse{|b| b}
 end
+
+def kesha_maker(a)
+  i = 0
