@@ -2,7 +2,7 @@ def sort_array_asc(a)
   a.sort {|b, c|b<=>c}
 end
 
-def sort_array_dsc(a)
+def sort_array_desc(a)
   a.sort {|b, c|c<=>b}
 end
 
