@@ -40,7 +40,7 @@ def add_s(a)
     if a[i] != "feet"
       a[i] << "s"
     else
-      i++
+      
     end
     i++
 end
