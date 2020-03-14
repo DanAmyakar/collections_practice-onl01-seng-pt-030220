@@ -50,28 +50,13 @@ end
 def add_s(a)
   i = 0
   while i < a.length
-    i == 1 ? 
-      i++
-    else
-      a[i] << "s"
-    end
-    
+    i == 1 ? i++ : a[i] << "s"
+  end
+  a
 end
   
   
 
-def find_the_cheese(cup)        # code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  i2 = 0
-  while i2 < cheese_types.length
-    i1 = 0
-    while i1 < cup.length
-      return cup[i1] if cup[i1] == cheese_types[i2]
-      i1 += 1
-    end
-    i2 += 1
-  end
-end
+
 
   
