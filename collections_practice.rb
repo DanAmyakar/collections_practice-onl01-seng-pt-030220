@@ -35,7 +35,20 @@ def sum_array(a)
 end
 
 def add_s(a)
-  a.each {|b| b << "s"}
+  multiples_wo_s = ["sheep", "feet", "deer", "fish"]
+  i = 0
+  while i < a.length
+    if a[i] == multiples_wo_s.detect
+      i++
+    else
+      a[i] << "s"
+    end
+    i++
+  end
+  a
 end
   
+
+
+
   
