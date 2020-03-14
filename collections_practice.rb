@@ -35,7 +35,6 @@ def sum_array(a)
 end
 
 def add_s(a)
-  multiples_wo_s = ["sheep", "feet", "deer", "fish"]
   i = 0
   while i < a.length
     if a[i] == "feet"
@@ -46,6 +45,7 @@ def add_s(a)
     i++
   end
   a
+end
 end
   
 
