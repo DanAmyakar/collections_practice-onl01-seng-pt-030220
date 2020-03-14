@@ -37,10 +37,10 @@ end
 def add_s(a)
   i = 0
   while i < a.length
-    if a[i] == "feet"
-      i++
+    if a[i] != "feet"
+      a[i] << "s"
     else
-      a[i] << "s"      
+      i++
     end
     i++
 end
