@@ -39,7 +39,7 @@ def add_s(a)
   i = 0
   while i < a.length
     if multiples_wo_s.include?(a[i])
-      i += 1
+      i++
     else
       a[i] << "s"      
     end
